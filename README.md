@@ -14,6 +14,8 @@ with open("proxies.txt") as f:
     service_url="https://roblox-api.arkoselabs.com",
     proxies=f.read().splitlines())
 
+solver.start(solvers=100, resubmitters=100)
+
 while 1:
   ## wait for solved challenge
   ch = solver.get_solved()

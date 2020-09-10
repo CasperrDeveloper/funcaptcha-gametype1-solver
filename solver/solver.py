@@ -127,6 +127,7 @@ class ResubmitWorker(threading.Thread):
     def run(self):
         while 1:
             ch = self._s.resubmit_queue.get(True)
+            if ch.resubmitted: continue
             try:
                 ch.resubmitted = True
                 if ch.check_answer(None, bypass=True):

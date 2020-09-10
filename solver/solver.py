@@ -218,18 +218,3 @@ class DBSaveWorker(threading.Thread):
                       err)
 
 DBSaveWorker().start()
-
-if __name__ == "__main__":
-    s = Solver(
-        public_key="A2A14B1D-1AF3-C791-9BBC-EE33CC7A0A6F",
-        service_url="https://roblox-api.arkoselabs.com",
-        window=dict(
-            title="Roblox",
-            url="https://www.roblox.com/account/signupredir"),
-        proxies=open("proxies.txt").read().splitlines())
-    s.start(100, 1)
-
-    while 1:
-        ch = s.get_solve()
-        print(ch.full_token)
-        s.resubmit(ch)

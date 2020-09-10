@@ -24,13 +24,13 @@ while 1:
   ## submit token to website
   requests.post(
     url="https://something/api/something",
+    proxies={"https": "https://%s:%d" % (ch.proxy.host, ch.proxy.port)},
     headers={
       "User-Agent": ch.fp.user_agent
     },
     json={
       "token": ch.full_token
-    },
-    proxies={"https": "https://%s:%d" % (ch.proxy.host, ch.proxy.port)}
+    }
   )
   
   ## all tokens can be re-used once, just call .resubmit after you're done

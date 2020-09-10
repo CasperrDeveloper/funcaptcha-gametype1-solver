@@ -23,7 +23,7 @@ while 1:
   
   ## submit token to website
   requests.post(
-    url="https://something/api/something",
+    url="https://httpbin.org/post",
     proxies={"https": "https://%s:%d" % (ch.proxy.host, ch.proxy.port)},
     headers={
       "User-Agent": ch.fp.user_agent

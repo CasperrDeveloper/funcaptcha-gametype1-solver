@@ -20,6 +20,7 @@ while 1:
   ## wait for solved challenge
   ch = solver.get_solved()
   print("token:", ch.full_token)
+  
   ## submit token to website
   requests.post(
     url="https://something/api/something",
@@ -28,6 +29,7 @@ while 1:
     },
     proxies={"https": "https://%s:%d" % (ch.proxy.host, ch.proxy.port)}
   )
+  
   ## all tokens can be re-used once, just call .resubmit after you're done
   ## and it'll automatically be added to the solve queue after it's been re-submitted
   solver.resubmit(ch)

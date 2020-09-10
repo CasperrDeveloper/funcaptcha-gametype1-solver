@@ -1,0 +1,30 @@
+urls:
+  9F35E182-C93C-EBCC-A31D-CF8ED317B996: https://www.roblox.com/login
+  A2A14B1D-1AF3-C791-9BBC-EE33CC7A0A6F: https://www.roblox.com/account/signupredir
+
+fingerprint:
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 OPR/70.0.3728.154
+  protochain_hash: 5d76839801bc5904a4f12f1731a7b6d1
+  content_type_value: application/x-www-form-urlencoded; charset=UTF-8
+  accept_language_value: en-US,en;q=0.9
+  sec_fetch: true
+  jsbd: 'lambda w: dict(HL=random.randint(3,4), NCE=True, DT=w.title, NWD="undefined", DA=None, DR=None, DMT=random.randint(30,40), DOT=random.randint(40,60))'
+
+  donottrack: unknown
+  lang: en-us
+  depth: 24
+  pixel_ratio: 1
+  resolution: 1920,1080
+  available: 1920,1040
+  sessionstorage: true
+  localstorage: true
+  indexeddb: true
+  B: false
+  opendb: true
+  cpuclass: unknown
+  platform_key: Win32
+  fonts: Arial,Arial Black,Arial Narrow,Book Antiqua,Bookman Old Style,Calibri,Cambria,Cambria Math,Century,Century Gothic,Century Schoolbook,Comic Sans MS,Consolas,Courier,Courier New,Garamond,Georgia,Helvetica,Impact,Lucida Bright,Lucida Calligraphy,Lucida Console,Lucida Fax,Lucida Handwriting,Lucida Sans,Lucida Sans Typewriter,Lucida Sans Unicode,Microsoft Sans Serif,Monotype Corsiva,MS Gothic,MS PGothic,MS Reference Sans Serif,MS Sans Serif,MS Serif,Palatino Linotype,Segoe Print,Segoe Script,Segoe UI,Segoe UI Light,Segoe UI Semibold,Segoe UI Symbol,Tahoma,Times,Times New Roman,Trebuchet MS,Verdana,Wingdings,Wingdings 2,Wingdings 3
+  plugins: Chromium PDF Plugin,Chromium PDF Viewer,News feed handler
+  touch: 0,false.false
+  hardware_concurrency: 8
+  swf: false

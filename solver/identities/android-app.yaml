@@ -1,0 +1,30 @@
+urls:
+  9F35E182-C93C-EBCC-A31D-CF8ED317B996: https://www.roblox.com/captcha/app/login?credentialsType=username&credentialsValue={username}&hybrid-return-token=1
+  A2A14B1D-1AF3-C791-9BBC-EE33CC7A0A6F: https://www.roblox.com/captcha/app/signup?hybrid-return-token=1
+
+fingerprint:
+  user_agent: Mozilla/5.0 (Linux; Android 9; SM-G950F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36
+  protochain_hash: 5d76839801bc5904a4f12f1731a7b6d1
+  content_type_value: application/x-www-form-urlencoded; charset=UTF-8
+  accept_language_value: en-us
+  sec_fetch: false
+  jsbd: 'lambda w: dict(HL=1, NCE=True, DT=w.title, NWD="false", DMTO=1, DOTO=1)'
+
+  donottrack: unknown
+  lang: en-us
+  depth: 32
+  pixel_ratio: 3
+  resolution: 896,414
+  available: 896,414
+  sessionstorage: true
+  localstorage: true
+  indexeddb: true
+  B: false
+  opendb: false
+  cpuclass: unknown
+  platform_key: Android
+  fonts: Arial,Arial Hebrew,Arial Rounded MT Bold,Courier,Courier New,Georgia,Helvetica,Helvetica Neue,Palatino,Times,Times New Roman,Trebuchet MS,Verdana
+  plugins: 
+  touch: 5,true,true
+  hardware_concurrency: unknown
+  swf: false

@@ -24,6 +24,9 @@ while 1:
   ## submit token to website
   requests.post(
     url="https://something/api/something",
+    headers={
+      "User-Agent": ch.fp.user_agent
+    },
     json={
       "token": ch.full_token
     },

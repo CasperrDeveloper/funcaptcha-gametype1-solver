@@ -18,7 +18,7 @@ solver.start(solvers=100, resubmitters=100)
 
 while 1:
   ## wait for solved challenge
-  ch = solver.get_solved()
+  ch = solver.get_solve()
   print("token:", ch.full_token)
   
   ## submit token to website

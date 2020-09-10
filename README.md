@@ -1,4 +1,7 @@
 # Funcaptcha Solver (Gametype 1)
+This project aims to simplify the automated solving of FunCaptcha challenges. Currently it is limited to only game type 1 (the rotating one).
+
+Identity profiles can be found in the *identities* folder, depending on the website you might need to add referral URLs to them.
 
 # Sample Usage
 ```python
@@ -12,8 +15,10 @@ with open("proxies.txt") as f:
     proxies=f.read().splitlines())
 
 while 1:
+  ## wait for solved challenge
   ch = solver.get_solved()
-  print("solved token:", ch.full_token)
+  print("token:", ch.full_token)
+  ## submit token to website
   requests.post(
     url="https://something/api/something",
     json={
